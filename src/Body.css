@@ -1,0 +1,48 @@
+h1{
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: end;
+}
+.button{
+    display: inline-block;
+    background-color: #fff;
+    color: #434343;
+    padding: .2rem; 
+    border: none;
+    font-weight:100;
+    font-size: 9px;
+    transition: .3s;
+}
+.button:hover{
+    cursor: pointer;
+    color: #000;
+}
+
+.button__add:hover,
+.button__change:hover,
+.button__remove:hover{
+    transform: translateY(.25rem);
+}
+
