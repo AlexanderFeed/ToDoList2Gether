@@ -1,9 +1,15 @@
-h1{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
     margin: 0;
 }
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -17,13 +23,23 @@ img {
 
 
 
-.body{
+.head,
+.uli{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.content{
+.content__head,
+.uli__content{
     text-align: end;
+}
+
+.tops{
+    width: 19vw;
+    text-align: start;
+    color: #434343;
+    font-weight: 100;
+    margin-top: 20px;
 }
 .button{
     display: inline-block;
@@ -46,3 +62,12 @@ img {
     transform: translateY(.25rem);
 }
 
+.li__button{
+    width: 1.5rem;
+    margin-right: 5px;
+    border-radius: 1rem;
+}
+
+.li__component{
+    text-align: left;
+}
